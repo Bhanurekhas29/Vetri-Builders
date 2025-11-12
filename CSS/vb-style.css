@@ -47,7 +47,7 @@ header {
 }
 
 .banner-section {
-    background: url('/images/builder-banner.png') ;
+    background: url('images/builder-banner.png') ;
     background-size: cover;
     height: 90vh;    
     display: flex;
