@@ -50,7 +50,7 @@ header {
 .banner-section {
     width: 100%;
     height: 100vh;
-    background: url('/Images/renovation-banner.png') no-repeat;
+    background: url('/images/renovation-banner.png') no-repeat;
     background-size: cover;
     /* background-position: center;     */
 }

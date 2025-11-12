@@ -50,7 +50,7 @@ header {
 .banner-section {
     width: 100%;
     height: 100vh;
-    background: url('/Images/interiorwork-banner.png') no-repeat;
+    background: url('/images/interiorwork-banner.png') no-repeat;
     background-size: cover;
     background-position: center;    
 }
