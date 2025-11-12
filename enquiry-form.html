@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="CSS/enquiry-form-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="left-content">
+                <h3>Do you have a <span> Questions?</span></h3>
+                 <p class="question">
+                    Serving the greater Seattle area beyond. 
+                    For more information on our services, or to inquire about a future project, give us a call!
+                </p>
+            </div>
+            <div>
+                <img src="images/enquiry-form-image.png" alt="Enquiry Form" class="left-image">
+            </div>
+        </div>
+        <div class="right-side">
+            <form action="post" class="enq-form">
+                <div class="form-title">
+                    <h2>Quick <span>Enquiry</span></h2>
+                </div>
+                <div class="form-fields">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" placeholder="Enter your full name" id="fullname">
+                </div>
+                <div class="form-fields">
+                    <label for="emailaddress">Email Address</label>
+                    <input type="email" placeholder="Enter your email id" id="emailaddress">
+                </div>
+                <div class="form-fields">
+                    <label for="phoneno">Phone Number</label>
+                    <input type="number" placeholder="Enter your phone number" id="phoneno">
+                </div>
+                <div class="form-fields">
+                    <label for="selectservices">Select Services</label>
+                    <select id="selectservices" name="selectservices">
+                        <option>Services</option>
+                        <option value="construction">Construction</option>
+                        <option value="interiordesign">Interior Design</option>
+                        <option value="renovation">Renovation</option>
+                    </select>
+                </div>
+                <div class="form-fields">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <div class="checkbox-div">
+                    <input type="checkbox" name="notarobot" id="notarobot">
+                    <label for="notarobot">I'm not a robot</label>
+                </div>
+                <button type="submit" class="form-submit-btn">Submit</button>
+                <a href="index.html" class="form-submit-btn">Back</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
