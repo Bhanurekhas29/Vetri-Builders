@@ -497,7 +497,7 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url('/Images/client1.jpeg');
+    background-image: url('../images/client1.jpeg');
     background-size: cover;
     position: absolute;
     top: 35%;
